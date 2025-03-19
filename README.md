@@ -1,5 +1,9 @@
 # macropedal
 
+![Shortcut](https://img.shields.io/badge/website-macropedal.brechtve.be-yellow)
+![License](https://img.shields.io/badge/licence-MIT-blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/Fescron/macropedal.svg)
+
 ## 1 - Introduction and Construction
 
 <img src="img/pedal.png" height=400 alt="Macropedal">
