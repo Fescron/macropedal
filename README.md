@@ -2,7 +2,7 @@
 
 ## 1 - Introduction and Construction
 
-<img align="Left" src="img/pedal.png" height="500" alt="Macropedal">
+<img src="img/pedal.png" height=400 alt="Macropedal">
 
 The *Macropedal* is based on an [Adafruit QT Py RP2040](https://www.adafruit.com/product/4900) and runs code very similar to that of my [Ultimate Adafruit Macropad](https://github.com/Fescron/Ultimate_Adafruit_MacroPad). It was initially developed to be able to execute macropad-like-functionality using a pedal, but due to its generic 4-pin 3.5mm headphone jack it can be connected to any switch(es) (via a [3.5mm 4-pin breakout plug](https://www.adafruit.com/product/2914)).
 
@@ -13,7 +13,7 @@ Because of the board's size a *35mm film canister* is a perfect fit for an enclo
 - Ring2 = `A2`
 - Sleeve = `GND`
 
-<img src="img/casing.png" alt="35mm film canister as a casing">
+<img src="img/casing.png" height=300 alt="35mm film canister as a casing">
 
 At startup the code detects at if a (mono) pedal is connected, which shorts *Ring1* and *Ring2* to ground. Different initialization code and sequences are activated depending on if the pedal is found or individual buttons are used.
 
